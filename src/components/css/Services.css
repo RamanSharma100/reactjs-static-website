@@ -1,0 +1,64 @@
+.services{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding:10px 0;
+}
+.services h1.heading{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.services p.sub-heading{
+    position:relative;
+    width: 100%;
+    height:auto;
+    text-align:center;
+    font-family:sans-serif;
+    font-size: 1.2rem;
+    padding:10px 0;
+    color: #444;
+}
+.services .services-cards{
+    position: relative;
+    height: 300px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    padding:15px 0;
+    margin:auto;
+}
+.services .services-cards .card{
+    position: relative;
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    padding:15px 25px;
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+}
+.services .services-cards .card i{
+    position: relative;
+    font-size: 4.5rem;
+    color: rgb(255, 8, 0);
+}
+.services .services-cards .card h1{
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.services .services-cards .card p{
+    position: relative;
+    font-size: 1rem;
+    color: #444;
+    font-weight: 550;
+}
